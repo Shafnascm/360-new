@@ -1,0 +1,94 @@
+.team__section__one{
+    .ht_btn{
+        background: transparent;
+        color: $black;
+        border: 1px solid $black;
+        border-radius: 30px;
+        font-size: 15px;
+        @include transition(0.3s);
+            &:hover{
+                color: $white;
+                border: 1px solid $black;
+                &::before{
+                    background: $black;
+                }
+            }
+    }
+    .teams__wrapper {
+        min-height: 503px;
+        border: 2px solid $black;
+        border-radius: 15px;
+        padding: 22px 30px;
+        @include transition(0.3s);
+        &:hover{
+            .teams__thumb{
+                background:$theme-color;
+                img{
+                    transform: scale(1.1);
+                }
+            }
+            .team__title{
+                text-transform: uppercase;
+                left: 0;
+            }
+            .star_icon{
+                i{
+                    color: $black;
+                }
+            }
+        }
+    }
+    .teams__thumb{
+        background: #F9FFE9;
+        z-index: 1;
+        border-radius: 5px;
+        @include transition(0.3s);
+        overflow: hidden;
+        height: 336px;
+        img{
+            position: absolute;
+            bottom: 0;
+            left: 10px;
+            @include transition(0.3s);
+        }
+        .team__title{
+            color: black;
+            font-size: 80px;
+            font-weight: 900;
+            text-transform: capitalize;
+            line-height: 1;
+            margin: 0 auto;
+            text-align: center;
+            display: inline-block;
+            left:15px;
+            top: 55px;
+            z-index: -1;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            @include transition(0.3s);
+        }
+    }
+    .teams__icon__wrapper{
+        .teams__content{
+            color: black;
+        }
+        .sub__title__two{
+            font-weight: 600;
+            line-height: 25px;
+            @include transition(0.3s);
+            &:hover{
+                color:$theme-color;
+            }
+        }
+        .teams__designation{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        .star_icon{
+            i{
+                color:$theme-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.subscribe__section__one .subscribe__text__content .description__text {
+  font-size: 24px;
+  line-height: 56px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.subscribe__section__one .subscribe__text__content .link__btn {
+  position: relative;
+  width: 138px;
+  height: 138px;
+  display: inline-block;
+  line-height: 138px;
+  text-align: center;
+  border: 1px solid #163F34;
+  border-radius: 50%;
+}
+.subscribe__section__one .subscribe__text__content .link__btn::before {
+  position: absolute;
+  content: url(../img/shape/subscribe__one__06.png);
+  left: -28%;
+  top: -37%;
+  z-index: -1;
+}
+.subscribe__section__one .subscribe__img__content::before {
+  position: absolute;
+  content: "";
+  left: 63px;
+  top: 154px;
+  width: 388px;
+  height: 388px;
+  border-radius: 50%;
+  background: #D3ECE5;
+  z-index: -1;
+}
+.subscribe__section__one .subscribe__img__content .subscribe__one__02 {
+  left: 63px;
+  top: 154px;
+  z-index: -1;
+}

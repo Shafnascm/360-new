@@ -1,0 +1,126 @@
+//font-weight========================
+.fw-800 {
+    font-weight: 800;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-100 {
+    font-weight: 100;
+}
+//font-size==================
+.fs-22 {
+    font-size: 22px;
+}
+.fs-21{
+    font-size: 21px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-17 {
+    font-size: 17px !important;
+}
+.fs-16 {
+    font-size: 16px !important;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+/*--
+===============- Background color
+-----------------------------------------*/
+
+.grey-bg {
+    background: $grey;
+}
+
+.white-bg {
+    background: $white;
+}
+
+.black-bg {
+    background: $heding;
+}
+
+.heding-bg {
+    background: $heding;
+}
+
+.theme-bg {
+    background: $theme-color;
+}
+
+/*--
+    - color
+-----------------------------------------*/
+.text-white {
+    color: $white;
+}
+.text-prime {
+    color: $theme-color;
+}
+.text-black {
+    color: $black;
+}
+.text-theme {
+    color: $theme-color;
+}
+
+.text-body {
+    color: $body-text-color;
+}
+
+.text-heding {
+    color: $heding;
+}
+
+/*--
+    - fonts
+-----------------------------------------*/
+
+.body-font {
+    font-family: $fontOne;
+}
+.heding-font {
+    font-family: $fontTwo;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.capitalize {
+    text-transform: lowercase;
+}
+
+//background-none
+.bg-none {
+    background: none;
+}
